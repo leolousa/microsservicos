@@ -1,0 +1,8 @@
+# Nome da aplicação e endereço do Config Server
+
+spring:
+  application:
+    name: api1
+  cloud:
+    config:
+      uri: http://localhost:9090
