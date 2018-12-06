@@ -1,8 +1,9 @@
-# Nome da aplicação e endereço do Config Server
+# Configurações da API2
 
 spring:
   application:
-    name: api2
+    name: api2                          # Nome da aplicação
   cloud:
     config:
-      uri: http://localhost:9090
+      uri: http://localhost:9090        # Endereço do Config Server
+      failFast: true                    # Como lidar com uma configuração não encontrada (Ex.: Sem arquivo de propriedades)
